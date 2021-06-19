@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../../src/pages/index'
+import Home from '../../pages/index'
 import { cleanup, render } from '../test.util'
 
 afterEach(cleanup)
