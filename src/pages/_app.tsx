@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+function MyApp({ Component, pageProps }: AppProps) {
   const Layout = Component.layout || React.Fragment
 
   return (

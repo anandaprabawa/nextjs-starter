@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Tailwind(): JSX.Element {
+export default function Tailwind() {
   return (
     <div className="h-screen flex justify-center items-center">
       <Head>
