@@ -10,6 +10,5 @@ declare type AppProps =
     Component: React.ComponentType & PageAdditionalProps
   }
 
-// eslint-disable-next-line @typescript-eslint/ban-types
 declare type NextPage<P = {}, IP = P> = import('next').NextPage<P, IP> &
   PageAdditionalProps
